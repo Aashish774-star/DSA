@@ -2,6 +2,7 @@ class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
         int n = nums.size();
+        // Min-heap to keep track of the k largest elements
         priority_queue<int, vector<int>, greater<int>>pq;
         for(int i = 0; i < n; i++)
         {
