@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/Aashish774-star/DSA/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Aashish774-star/DSA/tree/master/0033-search-in-rotated-sorted-array) |
 | [0053-maximum-subarray](https://github.com/Aashish774-star/DSA/tree/master/0053-maximum-subarray) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Aashish774-star/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Aashish774-star/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Aashish774-star/DSA/tree/master/0217-contains-duplicate) |
 ## Divide and Conquer
@@ -33,10 +34,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Aashish774-star/DSA/tree/master/0033-search-in-rotated-sorted-array) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Aashish774-star/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Two Pointers
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/Aashish774-star/DSA/tree/master/0031-next-permutation) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Aashish774-star/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
