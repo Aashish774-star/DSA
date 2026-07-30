@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/Aashish774-star/DSA/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Aashish774-star/DSA/tree/master/0033-search-in-rotated-sorted-array) |
 | [0053-maximum-subarray](https://github.com/Aashish774-star/DSA/tree/master/0053-maximum-subarray) |
+| [0075-sort-colors](https://github.com/Aashish774-star/DSA/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Aashish774-star/DSA/tree/master/0088-merge-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Aashish774-star/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Aashish774-star/DSA/tree/master/0215-kth-largest-element-in-an-array) |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/Aashish774-star/DSA/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Aashish774-star/DSA/tree/master/0016-3sum-closest) |
+| [0075-sort-colors](https://github.com/Aashish774-star/DSA/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Aashish774-star/DSA/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Aashish774-star/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Aashish774-star/DSA/tree/master/0217-contains-duplicate) |
@@ -51,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/Aashish774-star/DSA/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Aashish774-star/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Aashish774-star/DSA/tree/master/0031-next-permutation) |
+| [0075-sort-colors](https://github.com/Aashish774-star/DSA/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Aashish774-star/DSA/tree/master/0088-merge-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Aashish774-star/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0977-squares-of-a-sorted-array](https://github.com/Aashish774-star/DSA/tree/master/0977-squares-of-a-sorted-array) |
