@@ -100,4 +100,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Aashish774-star/DSA/tree/master/0141-linked-list-cycle) |
+## Math
+|  |
+| ------- |
+| [0007-reverse-integer](https://github.com/Aashish774-star/DSA/tree/master/0007-reverse-integer) |
 <!---LeetCode Topics End-->
