@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int findSquareSum(int n) {
+    int findSqSum(int n) {
         int sum = 0;
         while (n > 0) {
             int digit = n % 10;
@@ -14,19 +14,15 @@ public:
         int slow = n;
         int fast = n;
 
-        while (true) {
-            slow = findSquareSum(slow);
-            fast = findSquareSum(findSquareSum(fast));
-
-            if (slow == fast) {
-                break;
+        while(fast != 1)
+        {
+            slow = findSqSum(slow);
+            fast = findSqSum(findSqSum(fast));
+            if(slow == fast && slow != 1)
+            {
+                return false;
             }
         }
-
-        if (slow == 1) {
-            return true;
-        }
-
-        return false;
+        return true;
     }
 };
