@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/Aashish774-star/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Aashish774-star/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Aashish774-star/DSA/tree/master/0217-contains-duplicate) |
+| [0287-find-the-duplicate-number](https://github.com/Aashish774-star/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0904-fruit-into-baskets](https://github.com/Aashish774-star/DSA/tree/master/0904-fruit-into-baskets) |
 | [0977-squares-of-a-sorted-array](https://github.com/Aashish774-star/DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/Aashish774-star/DSA/tree/master/1004-max-consecutive-ones-iii) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/Aashish774-star/DSA/tree/master/0033-search-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Aashish774-star/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/Aashish774-star/DSA/tree/master/0209-minimum-size-subarray-sum) |
+| [0287-find-the-duplicate-number](https://github.com/Aashish774-star/DSA/tree/master/0287-find-the-duplicate-number) |
 | [1004-max-consecutive-ones-iii](https://github.com/Aashish774-star/DSA/tree/master/1004-max-consecutive-ones-iii) |
 ## Two Pointers
 |  |
@@ -71,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/Aashish774-star/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Aashish774-star/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0202-happy-number](https://github.com/Aashish774-star/DSA/tree/master/0202-happy-number) |
+| [0287-find-the-duplicate-number](https://github.com/Aashish774-star/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0977-squares-of-a-sorted-array](https://github.com/Aashish774-star/DSA/tree/master/0977-squares-of-a-sorted-array) |
 ## Heap (Priority Queue)
 |  |
@@ -115,4 +118,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/Aashish774-star/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0202-happy-number](https://github.com/Aashish774-star/DSA/tree/master/0202-happy-number) |
+| [0287-find-the-duplicate-number](https://github.com/Aashish774-star/DSA/tree/master/0287-find-the-duplicate-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/Aashish774-star/DSA/tree/master/0287-find-the-duplicate-number) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/Aashish774-star/DSA/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
