@@ -22,7 +22,7 @@ public:
             res.push_back(newInterval);
         }
 
-        // Merge (same as your code)
+        // Merge
         vector<vector<int>> ans;
 
         int st1 = res[0][0];
