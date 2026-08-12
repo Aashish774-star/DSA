@@ -13,9 +13,12 @@ public:
             st.pop();
             res.push_back(c);
         }
+
         for(int i = 0; i < s.size(); i++)
         {
             s[i] = res[i];
         }
+
+        // fun me int hota toh return res;
     }
 };
