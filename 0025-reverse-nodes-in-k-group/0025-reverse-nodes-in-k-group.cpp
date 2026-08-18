@@ -10,51 +10,66 @@
  */
 class Solution {
 public:
-    ListNode* getKthNode(ListNode* temp, int k) {
-        k -= 1;
-        while (temp != nullptr && k > 0) {
-            k--;
-            temp = temp->next;
-        }
-        return temp;
-    }
-    
-    ListNode* reverseLinkedList(ListNode* head) {
-        ListNode* prev = nullptr;
+
+    void reverse(ListNode* head, int times)
+    {
         ListNode* curr = head;
-        while (curr != nullptr) {
-            ListNode* nextTemp = curr->next;
-            curr->next = prev;
+        ListNode* prev = NULL;
+        while(times--)
+        {
+            ListNode* nex = curr -> next;
+            curr -> next = prev;
             prev = curr;
-            curr = nextTemp;
+            curr = nex;
         }
-        return prev;
+        return;
     }
 
     ListNode* reverseKGroup(ListNode* head, int k) {
-        ListNode* temp = head;
-        ListNode* prevLast = nullptr;
-
-        while (temp != nullptr) {
-            ListNode* kthNode = getKthNode(temp, k);
-            if (kthNode == nullptr) {
-                if (prevLast) prevLast->next = temp;
-                break;
-            }
-            ListNode* nextNode = kthNode->next;
-            kthNode->next = nullptr;
-
-            ListNode* newHead = reverseLinkedList(temp);
-
-            if (temp == head) {
-                head = newHead;
-            } else {
-                prevLast->next = newHead;
-            }
-
-            prevLast = temp;
-            temp = nextNode;
-        }
+         int size = k;
+        if(head == NULL)
         return head;
+
+        ListNode* left = head;
+        ListNode* res = NULL;
+        ListNode* prevleft = NULL;
+        ListNode* right;
+
+        while(true)
+        {
+            right = left;
+            for(int i = 0; i < size - 1; i++)
+            {
+                if(right == NULL)
+                break;
+                right = right -> next;
+            }
+            // 2 nodes available
+            if(right)
+            {
+                ListNode* nextleft = right -> next;
+                reverse(left,size);
+
+                if(prevleft)
+                
+                   prevleft -> next = right;
+                    prevleft = left;
+
+                    if(res == NULL)
+                    res = right;
+                    left = nextleft;
+                }
+                else
+                {
+                    if(prevleft)
+                    prevleft -> next = left;
+
+                    // jab linklist me ek element ho tb ye chlga 
+                    if(res == NULL)
+                    res = left;
+                    break;
+                }
+            }
+        return res;
     }
 };
