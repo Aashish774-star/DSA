@@ -10,34 +10,32 @@
  */
 class Solution {
 public:
-
     ListNode* rotateRight(ListNode* head, int k) {
-      if (!head || !head->next || k == 0) return head;
+     if(head == NULL)
+     return NULL;
 
-        // Step 1: Find the length of the list and the tail node
-        int length = 1;
-        ListNode* tail = head;
-        while (tail->next) {
-            length++;
-            tail = tail->next;
-        }
-
-        // Step 2: Handle cases where k >= length
-        k = k % length;
-        if (k == 0) return head;
-
-        // Step 3: Find the breaking point
-        int breakPoint = length - k;
-        ListNode* current = head;
-        for (int i = 1; i < breakPoint; i++) {
-            current = current->next;
-        }
-
-        // Step 4: Rotate the list
-        ListNode* newHead = current->next;
-        current->next = nullptr;
-        tail->next = head;
-
-        return newHead;  
+     ListNode* last = head;
+     int n = 1;
+     while(last -> next != NULL)
+     {
+        n++;
+        last = last->next;
+     } 
+     k = k % n;
+     if(k == 0)
+     return head;  
+     int count = 1;
+     ListNode* t = head;
+     while(t != NULL)
+     {
+        if(count == (n-k))
+        break;
+        count++;
+        t = t -> next;
+     }
+     last -> next = head;
+     ListNode* res = t -> next;
+     t -> next = NULL;
+     return res;
     }
 };
