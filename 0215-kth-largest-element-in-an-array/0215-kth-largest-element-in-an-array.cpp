@@ -3,7 +3,7 @@ public:
     int findKthLargest(vector<int>& nums, int k) {
          int n = nums.size();
 
-        priority_queue<int, vector<int>,greater<int>> pq; // max heap
+        priority_queue<int, vector<int>,greater<int>> pq; // min heap
 
         // First k elements
         for (int i = 0; i < k; i++) {
