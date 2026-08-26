@@ -1,10 +1,10 @@
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        int slow = 0; //off
-        int fast = 1; // cm
-        int res = 1;
-        int n = nums.size();
+        int slow = 0; //slow = unique elements ke last position
+        int fast = 1; // fast = array ko scan/check karta hai
+        int res = 1;  // res = unique elements ki total count
+        int n = nums.size(); // array ka size
         while(fast < n)
         {
             if(nums[fast] == nums[fast - 1])
