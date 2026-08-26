@@ -7,7 +7,7 @@ public:
         int n = nums.size();
         while(fast < n)
         {
-            if(nums[fast] == nums[fast-1])
+            if(nums[fast - 1] == nums[fast])
             {
                 fast++;
                 continue;
