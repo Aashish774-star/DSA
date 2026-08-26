@@ -1,21 +1,21 @@
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        int off = 0;
+        int slow = 0; //off
+        int fast = 1; // cm
         int res = 1;
-        int cm = 1;
         int n = nums.size();
-        while(cm < n)
+        while(fast < n)
         {
-            if(nums[cm] == nums[cm-1])
+            if(nums[fast] == nums[fast-1])
             {
-                cm++;
+                fast++;
                 continue;
             }
-            nums[off+1] = nums[cm];
-            off++;
+            nums[slow+1] = nums[fast];
+            slow++;
+            fast++;
             res++;
-            cm++;
         }
         return res;
     }
