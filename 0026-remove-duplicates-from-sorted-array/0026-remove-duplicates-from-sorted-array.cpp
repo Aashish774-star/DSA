@@ -12,7 +12,7 @@ public:
                 fast++;
                 continue;
             }
-            nums[slow+1] = nums[fast];
+            nums[slow + 1] = nums[fast];
             slow++;
             fast++;
             res++;
