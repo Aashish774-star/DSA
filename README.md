@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-last-stone-weight](https://github.com/Aashish774-star/DSA/tree/master/1046-last-stone-weight) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/Aashish774-star/DSA/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Aashish774-star/DSA/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
+| [2965-find-missing-and-repeated-values](https://github.com/Aashish774-star/DSA/tree/master/2965-find-missing-and-repeated-values) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0904-fruit-into-baskets](https://github.com/Aashish774-star/DSA/tree/master/0904-fruit-into-baskets) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/Aashish774-star/DSA/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1189-maximum-number-of-balloons](https://github.com/Aashish774-star/DSA/tree/master/1189-maximum-number-of-balloons) |
+| [2965-find-missing-and-repeated-values](https://github.com/Aashish774-star/DSA/tree/master/2965-find-missing-and-repeated-values) |
 ## Sorting
 |  |
 | ------- |
@@ -206,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Aashish774-star/DSA/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Aashish774-star/DSA/tree/master/0202-happy-number) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/Aashish774-star/DSA/tree/master/0668-kth-smallest-number-in-multiplication-table) |
+| [2965-find-missing-and-repeated-values](https://github.com/Aashish774-star/DSA/tree/master/2965-find-missing-and-repeated-values) |
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
@@ -298,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Aashish774-star/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Aashish774-star/DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Aashish774-star/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [2965-find-missing-and-repeated-values](https://github.com/Aashish774-star/DSA/tree/master/2965-find-missing-and-repeated-values) |
 ## Bucket Sort
 |  |
 | ------- |
