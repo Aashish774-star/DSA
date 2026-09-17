@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Aashish774-star/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/Aashish774-star/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Aashish774-star/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0485-max-consecutive-ones](https://github.com/Aashish774-star/DSA/tree/master/0485-max-consecutive-ones) |
 | [0502-ipo](https://github.com/Aashish774-star/DSA/tree/master/0502-ipo) |
 | [0503-next-greater-element-ii](https://github.com/Aashish774-star/DSA/tree/master/0503-next-greater-element-ii) |
 | [0525-contiguous-array](https://github.com/Aashish774-star/DSA/tree/master/0525-contiguous-array) |
